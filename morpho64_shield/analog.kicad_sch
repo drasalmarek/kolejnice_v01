@@ -1450,16 +1450,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "INPUT\n"
-		(exclude_from_sim no)
-		(at 35.56 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ede32964-1695-4aea-a028-2a7dde8cef64")
-	)
 	(junction
 		(at 114.3 106.68)
 		(diameter 0)
@@ -1485,10 +1475,22 @@
 		(uuid "3f242934-355b-4a3d-bada-ebb6ac69c031")
 	)
 	(junction
+		(at 96.52 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f971d71-5b27-4dd3-82a7-ffe95d21f057")
+	)
+	(junction
 		(at 144.78 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73faf109-5724-4144-b50d-79240ccd1594")
+	)
+	(junction
+		(at 96.52 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abfd7e71-75b6-4abc-becb-990e449335a4")
 	)
 	(junction
 		(at 144.78 68.58)
@@ -1644,6 +1646,46 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 157.48) (xy 96.52 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a73765-519a-4276-97e9-1bbc9b25ff08")
+	)
+	(wire
+		(pts
+			(xy 78.74 109.22) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34214894-340e-4513-ab99-8a2440d44542")
+	)
+	(wire
+		(pts
+			(xy 180.34 107.95) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34844379-e780-42ff-be7d-1d00b1ec3561")
+	)
+	(wire
+		(pts
+			(xy 127 185.42) (xy 96.52 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6231ed-53dc-47c9-abe6-cef7047e4935")
+	)
+	(wire
+		(pts
 			(xy 148.59 77.47) (xy 148.59 63.5)
 		)
 		(stroke
@@ -1714,6 +1756,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 175.26) (xy 127 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b36f698-920f-4704-a76a-66b35e310e60")
+	)
+	(wire
+		(pts
 			(xy 152.4 101.6) (xy 144.78 101.6)
 		)
 		(stroke
@@ -1744,7 +1796,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 157.48) (xy 96.52 158.75)
+			(xy 180.34 95.25) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644bedbf-f3aa-4ee2-ad9d-d2e9d34e03ed")
+	)
+	(wire
+		(pts
+			(xy 96.52 156.21) (xy 96.52 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1824,6 +1886,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 54.61) (xy 180.34 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8435a56e-2657-4fbc-b32e-18e641c4d114")
+	)
+	(wire
+		(pts
 			(xy 152.4 43.18) (xy 144.78 43.18)
 		)
 		(stroke
@@ -1881,6 +1953,16 @@
 			(type default)
 		)
 		(uuid "98aad248-6847-44b5-b2e3-ee144fdac9a9")
+	)
+	(wire
+		(pts
+			(xy 127 167.64) (xy 127 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b762025-0481-4f49-9064-8b76eb954724")
 	)
 	(wire
 		(pts
@@ -1964,6 +2046,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 96.52) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87e7285-7c4f-4deb-a077-c504d139b06c")
+	)
+	(wire
+		(pts
 			(xy 148.59 121.92) (xy 151.13 121.92)
 		)
 		(stroke
@@ -1981,6 +2073,16 @@
 			(type default)
 		)
 		(uuid "bc3fa847-dcb4-41c5-b6a8-4436f3f159e8")
+	)
+	(wire
+		(pts
+			(xy 96.52 185.42) (xy 96.52 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddd34c8-25dc-43db-b264-dc2e669f3799")
 	)
 	(wire
 		(pts
@@ -2024,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 157.48) (xy 96.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de83edbc-8b03-4775-8224-01047de8b050")
+	)
+	(wire
+		(pts
 			(xy 91.44 129.54) (xy 96.52 129.54)
 		)
 		(stroke
@@ -2041,6 +2153,16 @@
 			(type default)
 		)
 		(uuid "e5418160-48f6-4cef-96fe-7a098b1c1583")
+	)
+	(wire
+		(pts
+			(xy 180.34 41.91) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89ba957-28ed-4e45-8158-4a226924de9c")
 	)
 	(wire
 		(pts
@@ -2226,6 +2348,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 180.34 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "153c5654-e4a1-48ff-8894-48bec0c4156c")
+		(property "Reference" "#PWR064"
+			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d777994-5196-46f0-b885-14dbda65ba7d")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 91.44 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -2375,6 +2575,163 @@
 			(project "morpho64_shield"
 				(path "/a6565cca-c06b-419d-9928-efb131163190"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28bbc808-23a7-422a-8545-b9d85394e221")
+		(property "Reference" "C19"
+			(at 182.88 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 183.896 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.3748 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f571efd1-4b38-44d7-ba5e-10d303095e3e")
+		)
+		(pin "2"
+			(uuid "2160187a-7935-4e0e-97b0-634a44745581")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40c2d48b-0471-4691-bab3-713bc23aa9aa")
+		(property "Reference" "#PWR066"
+			(at 180.34 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc4f6a39-142a-47a4-a18d-49edde4c4b62")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3097,6 +3454,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 78.74 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7df64d3b-1378-4059-9e5f-17476ff985cb")
+		(property "Reference" "C18"
+			(at 81.28 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.296 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.7748 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0d3def2-6f93-4514-bad3-829a2919a5a9")
+		)
+		(pin "2"
+			(uuid "e99b9bb0-b664-4812-a132-e202fe7cdd1a")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 138.43 68.58 90)
 		(unit 1)
@@ -3257,6 +3693,84 @@
 			(project "morpho64_shield"
 				(path "/a6565cca-c06b-419d-9928-efb131163190"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 78.74 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0511b9-d2b4-4f1a-80ba-60dca791a874")
+		(property "Reference" "#PWR061"
+			(at 78.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_A"
+			(at 78.74 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 78.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7369b6c9-d825-4802-bac8-364f9d2c1e73")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3493,6 +4007,163 @@
 			(project "morpho64_shield"
 				(path "/a6565cca-c06b-419d-9928-efb131163190"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c6ef91-5ba1-4bc8-b5d1-95044b57f4aa")
+		(property "Reference" "#PWR065"
+			(at 180.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_A"
+			(at 180.34 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd6daede-87da-4bcc-89f3-fcdd91709fb8")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a65aa0a3-5df5-48c0-a893-cadecd0b29bf")
+		(property "Reference" "C20"
+			(at 182.88 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 183.896 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.3748 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95ba4892-faa2-4b18-8c7b-36d077e78acb")
+		)
+		(pin "2"
+			(uuid "4b3dcc25-cbbe-47b8-9812-d1e09fcd1017")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3908,7 +4579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 185.42 0)
+		(at 96.52 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3919,7 +4590,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdafa71e-cfcf-4c8c-98c9-9f0f39da719b")
 		(property "Reference" "#PWR023"
-			(at 96.52 191.77 0)
+			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3930,7 +4601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 190.5 0)
+			(at 96.52 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3940,7 +4611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 185.42 0)
+			(at 96.52 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +4622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 185.42 0)
+			(at 96.52 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +4633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 185.42 0)
+			(at 96.52 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3979,6 +4650,84 @@
 			(project "morpho64_shield"
 				(path "/a6565cca-c06b-419d-9928-efb131163190"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d09725d4-b2f1-4518-89c2-f107dd7ad85c")
+		(property "Reference" "#PWR062"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3eca36b-868c-429a-9156-e67726810359")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4143,7 +4892,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 157.48 0)
+		(at 96.52 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4154,7 +4903,7 @@
 		(fields_autoplaced yes)
 		(uuid "e82bf920-2c59-4e49-9eae-93d7f0fc00b5")
 		(property "Reference" "#PWR022"
-			(at 96.52 161.29 0)
+			(at 96.52 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,7 +4914,7 @@
 			)
 		)
 		(property "Value" "+3V3_A"
-			(at 96.52 152.4 0)
+			(at 96.52 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4175,7 +4924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 157.48 0)
+			(at 96.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4186,7 +4935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 157.48 0)
+			(at 96.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +4946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 157.48 0)
+			(at 96.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,6 +4963,163 @@
 			(project "morpho64_shield"
 				(path "/a6565cca-c06b-419d-9928-efb131163190"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9f8012f-ee79-4f1e-a66c-7799a0b286c5")
+		(property "Reference" "#PWR063"
+			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_A"
+			(at 180.34 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "def29345-3426-4d9b-9603-22c533130370")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 171.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb2cb287-eb20-4d63-a0ff-2c0c1f141ac7")
+		(property "Reference" "C13"
+			(at 130.302 168.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 131.572 174.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.0348 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1171151-9dbc-4c93-b15a-5246646554c8")
+		)
+		(pin "2"
+			(uuid "624ecf07-a0f1-4423-a147-74ed2cc1f44e")
+		)
+		(instances
+			(project "morpho64_shield"
+				(path "/a6565cca-c06b-419d-9928-efb131163190"
+					(reference "C13")
 					(unit 1)
 				)
 			)

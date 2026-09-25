@@ -2503,6 +2503,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ADC2 signal goes to both\ninternal ADC1CH2 and ADC2CH1\nfor flexibility\n\n"
+		(exclude_from_sim no)
+		(at 92.202 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ff84259-87f1-4f92-89a0-a558de14f9ed")
+	)
 	(junction
 		(at 55.88 148.59)
 		(diameter 0)
