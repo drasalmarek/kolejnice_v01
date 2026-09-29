@@ -3678,6 +3678,16 @@
 		)
 		(uuid "7362f3a9-cfa8-46d5-b059-2e1112be0c68")
 	)
+	(label "SW"
+		(at 199.39 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d024ab68-1d46-483d-9f6f-7a633082494c")
+	)
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 87.63 45.72 0)
@@ -3712,7 +3722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_16x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.7"
 			(at 88.5952 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4114,7 +4124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_16x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x7.7"
 			(at 88.5952 59.69 0)
 			(hide yes)
 			(show_name no)
