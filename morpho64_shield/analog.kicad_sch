@@ -3198,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1meg"
 			(at 98.552 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,7 +3602,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 138.43 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100R"
 			(at 86.36 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,6 +4469,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 102.87 106.68 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4478,7 +4479,7 @@
 		(dnp no)
 		(uuid "b4314c29-fb21-4ee5-92e2-c975ab5ef994")
 		(property "Reference" "C1"
-			(at 106.426 104.648 90)
+			(at 106.426 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4487,8 +4488,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 99.568 104.648 90)
+		(property "Value" "1n"
+			(at 99.568 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4498,7 +4499,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.68 105.7148 0)
+			(at 106.68 107.6452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 138.43 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5521,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 156.21 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
